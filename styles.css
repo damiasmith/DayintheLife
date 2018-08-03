@@ -3,24 +3,24 @@ html {
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: gray;
   min-height: 100%;
   margin: 0;
 }
 
-h1 {
+h1 {font-family: sans-serif;
 
 }
 
-h2 {
+h2 {font-family:sans-serif;
 
 }
 
-h3 {
+h3 {font-family: sans-serif;
 
 }
 
-p {
+p {font-family: sans-serif;
 
 }
 
