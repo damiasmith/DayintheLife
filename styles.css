@@ -20,9 +20,20 @@ h3 {font-family:sans-serif;
 
 }
 
-.profligacy { vertical-align: middle;
+
+.profligacy
+{ float: left;
 }
-.morning
+.margot
+{ float: left;
+}
+.bracelet
+{ float: left;
+}
+
+.list {indent: 50px
+}
+  .morning
 {background-color: rgba(100, 100, 100, 1);
 color: white;
 }
