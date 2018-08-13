@@ -15,26 +15,30 @@ header{  position: fixed;
   background-color: rgba(20, 150, 200, 0.8);
 
 }
-h1 {font-family: sans-serif;
+h1 {font-family: 'Hammersmith One', sans-serif;
 
 }
 
-h3 {font-family:sans-serif;
+h3 {font-family: sans-serif;
 
 }
 
+#Morning {
+  background-color: rgba(100, 100, 100, 1);
+}
 
 .profligacy
-{ float: left; padding: 50px;
+{ float: left; padding: 30px;
 }
 .margot
-{ float: left; padding: 50px;
+{ float: left; padding: 30px;
 }
 .bracelet
-{ float: left; padding: 50px;
+{ float: left; padding: 30px;
 }
 
-.list { padding: 50px;
+.list
+{ font-family: 'Hammersmith One', sans-serif;
 
 }
   .morning
@@ -54,13 +58,21 @@ padding: 10px;
   background-color: rgba(100, 100, 100, 0.1);
   padding: 10px;
 }
+
 h2 {font-family: sans-serif;
 
 }
 
-p {font-family: sans-serif; padding-left: 20px;
-
+p {font-family: 'Heebo',sans-serif;
+  padding-left: 20px;
+  indent: 20px;
 }
+
+.clearfix::after {
+    overflow: auto;
+    content: "";
+    clear: both;
+    display: table;
 
 a {
 
