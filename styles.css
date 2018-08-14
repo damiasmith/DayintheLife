@@ -11,13 +11,13 @@ body {
 
 header {
   position: fixed;
-  margin-top: -80px;
+  margin-top: -100px;
   padding: 20px;
   background-color: rgba(20, 150, 200, 0.8);
 }
 
 h1 {font-family: 'Ubuntu'; sans-serif;
-
+padding-bottom: 15px;
 }
 
 h3 {font-family: sans-serif;
@@ -25,30 +25,54 @@ h3 {font-family: sans-serif;
 }
 
 #morning {
-  color: white;
+  color: black;
+  font-family: sans-serif;
   text-decoration: none;
-  background-color: rgba(50, 50, 50, 1);
-  padding: 10px;
+  background-color: rgba(100, 100, 100, 0.2);
+  padding: 7px;
   border-radius: 5px;
+  margin-right: 5px;
+
 }
-#afternoon{
+#morning:hover {
+  background-color: rgba(50, 50, 50, .8);
   color: white;
+}
+
+#afternoon{
+  color: black;
+  font-family: sans-serif;
   text-decoration: none;
-  background-color: rgba(50, 50, 50, 1);
-  padding: 10px;
+  background-color: rgba(100, 100, 100, 0.2);
+  padding: 7px;
   border-radius: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#afternoon:hover {
+  background-color: rgba(50, 50, 50, .8);
+  color: white;
 }
 #evening{
-  color: white;
+  color: black;
+  font-family: sans-serif;
   text-decoration: none;
-  background-color: rgba(50, 50, 50, 1);
-  padding: 10px;
+  background-color: rgba(100, 100, 100, 0.2);
+  padding: 7px;
   border-radius: 5px;
+  margin-left: 5px;
+}
+#evening:hover {
+  background-color: rgba(50, 50, 50, .8);
+  color: white;
 }
 #damia {
-  color: rgba(20, 150, 200, 0.8);
+  color: white;
   text-decoration: none;
 }
+#damia:hover {
+  color: rgba(20, 150, 200, 0.8);}
+
 .profligacy
 { float: left; padding: 30px;
 }
@@ -61,6 +85,8 @@ h3 {font-family: sans-serif;
 
 .list
 { font-family: 'Noto Sans'; sans-serif;
+list-style: none;
+
 
 }
   .morning
@@ -85,9 +111,8 @@ h2 {font-family: sans-serif;
 
 }
 
-p {font-family: 'Heebo',sans-serif;
-  padding-left: 20px;
-  indent: 20px;
+p {font-family: sans-serif;
+
 }
 
 .clearfix::after {
