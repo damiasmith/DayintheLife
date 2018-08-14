@@ -1,7 +1,6 @@
 html {
   height: 100%;
   background-color: rgba(20, 150, 200, 0.5);
-
 }
 
 body {
@@ -9,13 +8,15 @@ body {
   min-height: 100%;
   margin-top: 100px;
 }
-header{  position: fixed;
-  margin-top: -70px;
-  padding: 10px;
-  background-color: rgba(20, 150, 200, 0.8);
 
+header {
+  position: fixed;
+  margin-top: -80px;
+  padding: 20px;
+  background-color: rgba(20, 150, 200, 0.8);
 }
-h1 {font-family: 'Hammersmith One', sans-serif;
+
+h1 {font-family: 'Ubuntu'; sans-serif;
 
 }
 
@@ -23,10 +24,31 @@ h3 {font-family: sans-serif;
 
 }
 
-#Morning {
-  background-color: rgba(100, 100, 100, 1);
+#morning {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(50, 50, 50, 1);
+  padding: 10px;
+  border-radius: 5px;
 }
-
+#afternoon{
+  color: white;
+  text-decoration: none;
+  background-color: rgba(50, 50, 50, 1);
+  padding: 10px;
+  border-radius: 5px;
+}
+#evening{
+  color: white;
+  text-decoration: none;
+  background-color: rgba(50, 50, 50, 1);
+  padding: 10px;
+  border-radius: 5px;
+}
+#damia {
+  color: rgba(20, 150, 200, 0.8);
+  text-decoration: none;
+}
 .profligacy
 { float: left; padding: 30px;
 }
@@ -38,7 +60,7 @@ h3 {font-family: sans-serif;
 }
 
 .list
-{ font-family: 'Hammersmith One', sans-serif;
+{ font-family: 'Noto Sans'; sans-serif;
 
 }
   .morning
@@ -70,15 +92,10 @@ p {font-family: 'Heebo',sans-serif;
 
 .clearfix::after {
     overflow: auto;
-    content: "";
-    clear: both;
-    display: table;
+
 
 a {
 
 }
 
-nav {
-
-
-}
+nav{}
